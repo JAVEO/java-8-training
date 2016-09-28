@@ -11,8 +11,9 @@ import static org.junit.Assert.assertThat;
 
 public class Ex1_Comparator {
 
-    void sortUsers(List<User> users) {
+    private List<User> sortUsers(List<User> users) {
         // TODO: Posortuj użytkowników po dacie rejestracji
+        return null;
     }
 
     @Test

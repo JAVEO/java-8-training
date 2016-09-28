@@ -18,7 +18,7 @@ public class Ex6_HighestValueInvoice {
     @Test
     public void test() {
         double highestInvoiceSum = findHighestInvoiceSum(Data.invoices);
-        assertThat(highestInvoiceSum, is(10870.0));
+        assertThat(highestInvoiceSum, is(37550.0));
     }
 
 }
