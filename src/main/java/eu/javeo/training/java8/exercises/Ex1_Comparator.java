@@ -19,7 +19,7 @@ public class Ex1_Comparator {
     @Test
     public void test() {
         List<User> users = Arrays.asList(userJaroslawPsikuta, userZygfrydWiadro, userLeopoldKozibak, userWaldemarKilof, userRomualdDzik, userAntoniSzpadel);
-        sortUsers(users);
-        assertThat(users, is(Arrays.asList(userWaldemarKilof, userAntoniSzpadel, userJaroslawPsikuta, userZygfrydWiadro, userRomualdDzik, userLeopoldKozibak)));
+        List<User> result = sortUsers(users);
+        assertThat(result, is(Arrays.asList(userWaldemarKilof, userAntoniSzpadel, userJaroslawPsikuta, userZygfrydWiadro, userRomualdDzik, userLeopoldKozibak)));
     }
 }
